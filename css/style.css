@@ -1,0 +1,93 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+.container-fluid {
+    width:100%;
+    background-color:#E1DEDE;
+    border-radius:10px;
+}
+
+p {
+	margin-top:1%;
+}
+
+.slide_btn button {
+	margin-left:20%;
+}
+
+h1 {
+	font-size:5em;
+}
+
+h3 {
+	font-size:2.5em;
+}
+
+h1,h3,.normal-text {
+	font-family:'Raleway',sans-serif;
+}
+
+.normal-text {
+	font-size:1.5em;
+}
+
+img {
+	border-radius:7px;
+	width:60%;
+}
+
+.btn {
+	margin-top:3%;
+	font-size:1.5em;
+	color:white;
+	background-color:black;
+}
+
+#slideshow img.slides {
+	width:40%;
+	height:700px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+iframe {
+	width:60%;
+	height:650px;
+}
+
+a, a:hover, a:visited {
+	text-decoration:none;
+}
+
+@media screen and (max-width: 800px) {
+	#slideshow img.slides {
+		width:70%;
+		height:250px;
+	}
+
+	h1 {
+		font-size:2em;
+	}
+
+	h3 {
+		font-size:1.5em;
+	}
+
+	.normal-text {
+		font-size:0.9em;
+	}
+
+	.btn {
+		font-size:1em;
+	}
+
+	iframe {
+		width:100%;
+		height:200px;  
+	}
+
+	footer {
+		width:100%;
+		background-color:#F5F5F5;
+		border-radius:4px;
+	}
+}
